@@ -1,0 +1,51 @@
+body{
+    background: gray;
+    padding:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_div{
+    background:white;
+    height:130px;
+    width:220px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding:1rem;
+    border-radius: 5px;
+    /* justify-content: space-between; */
+}
+
+
+
+.dialog_body{
+    flex:1;
+    font-size: large; 
+    color:grey;  
+}
+
+h2{
+    padding:0rem;
+    margin:0;
+}
+
+.dialog_action{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:15px;
+    
+    
+}
+
+a{
+    text-decoration:none;
+    color:#6200ee;
+    padding:.4rem .1rem;
+}
+
+a:hover{
+    background:rgb(245, 234, 234);
+    
+}
